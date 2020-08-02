@@ -1,6 +1,6 @@
 # Subarray with sum exactly k
 
->Is there is any subarray with sum k
+## Is there is any subarray with sum k
 
 | Input | Output |
 | --- | --- |
@@ -47,7 +47,7 @@ S(n) = O(n)
 
 <br>
 
-> Number of subarray with sum k
+## Number of subarray with sum k
 
 | Input | Output |
 | --- | --- |
@@ -88,7 +88,7 @@ S(n) = O(n)
 
 <br>
 
-> Maximum subarray sum divisible by k
+## Maximum subarray sum divisible by k
 
 | Input | Output |
 | --- | --- |
