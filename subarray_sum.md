@@ -106,7 +106,7 @@ def subArraySumDivbyK(arr, k):
         currentSum += arr[i]
         index = currentSum % k
         
-        if modulo[index] == -1:
+        if moduloSum[index] == -1:
             moduloSum[index] = currentSum
         else:
             sum_ = max(sum_, currentSum - moduloSum[index]) 
