@@ -1,6 +1,6 @@
 # Subarray with sum exactly k
 
-## Is there is any subarray with sum k
+## Is there exists any subarray with sum k
 
 | Input | Output |
 | --- | --- |
