@@ -1,2 +1,2 @@
-# competetive-coding
+# competitive-coding
 all the problems that I solved so far...
