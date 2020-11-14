@@ -29,3 +29,4 @@ print(symmDiff([[1, 2, 3], [2, 3, 4, 4], [4, 5, 7]]))
 Time and space complexity:
 T(n) = O(n)
 S(n) = O(1)
+```
