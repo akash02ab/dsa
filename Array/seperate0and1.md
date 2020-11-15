@@ -5,9 +5,11 @@
 | n: size of array <br> arr[n]: array of size n <br> containing only 0's and 1's | arr[]: array having all 0's followed by 1's |
 
 ```
+input:
 n = 7
 arr[] = [1, 0, 1, 0, 0, 1, 1]
 
+output:
 arr[] = [0, 0, 0, 1, 1, 1, 1]
 ```
 
@@ -35,4 +37,10 @@ arr = list(map(int, input().split()))
 seperate0and1(arr, n)
 
 print(arr)
+```
+
+```
+Time and Space complexity:
+T(n) = O(n)
+S(n) = O(1)
 ```

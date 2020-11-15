@@ -35,6 +35,14 @@ def isSubarrayExists(arr, k):
         prefixSum.append(currentSum)
 
     return False
+
+arr = list(map(int, input().split()))
+
+k = int(input())
+
+tf = isSubarrayExists(arr, k)
+
+print(tf)
 ```
 ```
 Time and space complexity:
@@ -74,6 +82,13 @@ def numberofSubarray(arr, k):
 
     return count
 
+arr = list(map(int, input().split()))
+
+k = int(input())
+
+c = isSubarrayExists(arr, k)
+
+print(c)
 ```
 
 ```
@@ -112,6 +127,14 @@ def subArraySumDivbyK(arr, k):
             sum_ = max(sum_, currentSum - moduloSum[index]) 
     
     return sum_
+
+arr = list(map(int, input().split()))
+
+k = int(input())
+
+s = isSubarrayExists(arr, k)
+
+print(s)
 ```
 ```
 Time and space complexity:
