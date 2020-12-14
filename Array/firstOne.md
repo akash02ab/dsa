@@ -21,8 +21,8 @@ def firstIndex(arr):
             i *= 2
         else:
             for j in range(i // 2, i):
-                if arr[i] == 1:
-                    return i
+                if arr[j] == 1:
+                    return j
 
 arr = list(map(int, input().split()))
 
