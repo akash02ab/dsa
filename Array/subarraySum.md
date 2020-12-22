@@ -40,9 +40,7 @@ arr = list(map(int, input().split()))
 
 k = int(input())
 
-tf = isSubarrayExists(arr, k)
-
-print(tf)
+print(isSubarrayExists(arr, k))
 ```
 ```
 Time and space complexity:
@@ -86,9 +84,7 @@ arr = list(map(int, input().split()))
 
 k = int(input())
 
-c = isSubarrayExists(arr, k)
-
-print(c)
+print(numberofSubarray(arr, k))
 ```
 
 ```
@@ -132,9 +128,7 @@ arr = list(map(int, input().split()))
 
 k = int(input())
 
-s = isSubarrayExists(arr, k)
-
-print(s)
+print(subArraySumDivbyK(arr, k))
 ```
 ```
 Time and space complexity:
