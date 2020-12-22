@@ -44,8 +44,7 @@ T(n) = T(n / 2) + 1 , if n > 1
 T(n) = 1 , if n = 1 
 ```
 
-```
-Time and Space complexity:
-T(n) = O(n log(n))
-S(n) = O(1)
-```
+
+> Time and space complexity:
+<br>T(n) = O(log(n))
+<br>S(n) = O(1)
