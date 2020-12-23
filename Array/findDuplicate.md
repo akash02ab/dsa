@@ -2,11 +2,11 @@
 
 | input | output |
 | --- | --- |
-|n: size of array<br>arr[n]: array of n elements | arr[]: array of duplicate elements |
+|`n`: size of array<br>`arr[n]`: array of `n` elements | `arr[]`: array of duplicate elements |
 
 <br>
 
-> constraint : ` -n > arr[i] > n`
+> constraint : ` 0 >= arr[i] > n`
 
 <br>
 
