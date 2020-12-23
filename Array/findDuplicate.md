@@ -38,6 +38,6 @@ arr = list(map(int, input().split()))
 print(findRepeating(arr, n))
 ```
 
-> Time and space complexity:
+> **Time and space complexity :**
 <br> `T(n) = O(n)`
 <br> `S(n) = O(1)`
