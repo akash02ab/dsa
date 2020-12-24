@@ -81,7 +81,7 @@ d = int(input())
 print(rotateLeft(arr, n, d))
 ```
 
-> Time and space complexity :
+> **Time and space complexity :**
 <br>T(n) = O(n)
 <br>S(n) = O(1)
 
@@ -126,6 +126,6 @@ d = int(input())
 print(leftRotate(arr, n, d))
 ```
 
-> Time and space complexity :
+> **Time and space complexity :**
 <br>T(n) = O(n)
 <br>S(n) = O(1)
