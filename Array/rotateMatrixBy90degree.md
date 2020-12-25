@@ -2,7 +2,7 @@
 
 | input | output |
 | --- | --- |
-| `arr[n][n]`: matrix of size `n x n` | `arr[n][n]`: matrix roated by 90<sup>o</sup> |
+| `arr[n][n]`: matrix of size `n x n` | `arr[n][n]`: matrix rotated by 90<sup>o</sup> |
 
 <br>
 
