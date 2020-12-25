@@ -1,6 +1,6 @@
 # Smallest sum impossible
 
-> Given an array of positive integers. Find the smallest number that cannot be generated with sum of numbers by using arra.
+> Given an array of positive integers. Find the smallest number that cannot be generated with sum of numbers by using the array.
 
 <br>
 
