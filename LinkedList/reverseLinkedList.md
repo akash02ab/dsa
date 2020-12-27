@@ -107,6 +107,10 @@ print('\nReversed Linked List:')
 llist.printList()
 ```
 
+> **Time and space complexity :**
+<br>T(n) = O(n)
+<br>S(n) = O(1)
+
 <br>
 
 > recursive implementation :
@@ -170,5 +174,5 @@ llist.printList()
 
 > **Time and space complexity :**
 <br>T(n) = O(n)
-<br>S(n) = O(1)
+<br>S(n) = O(n)
 
