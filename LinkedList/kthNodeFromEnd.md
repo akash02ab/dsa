@@ -2,7 +2,7 @@
 
 | input | output |
 | --- | --- |
-| `list`: linked list<br>`k`: number | `n`: k<sup>th</sup> element from end |
+| `list`: linked list<br>`k`: node number | `n`: k<sup>th</sup> element from end |
 
 <br>
 
