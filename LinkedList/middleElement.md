@@ -1,4 +1,4 @@
-# Middle element of liked list
+# Middle element of linked list
 
 | input | output |
 | --- | --- |
@@ -18,11 +18,11 @@ output:
 
 > approach :
 1. initialize two pointers
- * fast pointer = head
- * slow pointer = head
-2. move fast pointer skip two nodes at a time and slow pointer by one
-3. by the time fast pointer reaches the last node slow pointer will be in the middle node
-4. return the data of node pointed by slow pointer
+    * fast pointer = head
+    * slow pointer = head
+2. move `fast pointer` skip `two` nodes at a time and `slow pointer` by `one`
+3. by the time `fast pointer` reaches the `last` node `slow pointer` will be in the`middle` node
+4. return the `data` of node pointed by `slow pointer`
 
 <br>
 
