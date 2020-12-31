@@ -119,5 +119,5 @@ llist.printList(head)
 ```
 
 > **Time and space complexity :**
-<br>T(n) = O(n)
+<br>T(n) = O(m + n)
 <br>S(n) = O(1)
