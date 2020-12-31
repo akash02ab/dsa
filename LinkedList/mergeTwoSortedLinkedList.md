@@ -29,7 +29,7 @@ output:
 
 5. advance `head` of list having lower value
 
-6. repeat step 3 to 5 untill either `head` of list1 or list2 reaches last node
+6. repeat step 3 to 5 untill `head` of either list1 or list2 reaches last node
 
 7. make `tail` point to remainig list if any
 
