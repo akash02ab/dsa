@@ -60,7 +60,7 @@ def distinctElement(arr, n, k):
         item = arr[i]
         hash[item] += 1
         '''
-        increment count by 1 if there is only single existance of item in window,
+        increment count by 1 if there is only single occurence of item in window,
         otherwise decrement it
         '''
         count += checkCount(hash[item])
