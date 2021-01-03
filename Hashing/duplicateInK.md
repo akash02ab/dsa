@@ -44,7 +44,7 @@ output:
 
 <br>
 
-> implementaion :
+> implementation :
 
 ```python
 def checkDuplicateInK(arr, n, k):
