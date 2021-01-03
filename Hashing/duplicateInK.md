@@ -34,7 +34,7 @@ output:
 
 1. create hash table for first `k` elements
 
-2. check if `i`<sup>th</sup> is present in hash table, if present return `Yes`
+2. check if `i`<sup>th</sup> element is present in hash table, if present return `Yes`
 
 3. slide the hash to next `k` element
 
