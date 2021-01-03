@@ -76,7 +76,7 @@ print(isDisjoint(arr1, arr2))
 ```
 > **Time and space complexity :**
 <br>T(n) = O(m logm + n logm)
-<br>*to sort set1 it takes m logm and to search for n elements in set2 it takes n logm*
+<br>*(to sort set1 it takes m logm and to search for n elements in set2 it takes n logm)*
 <br>S(n) = O(1)
 
 <br>
