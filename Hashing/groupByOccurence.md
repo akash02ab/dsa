@@ -6,7 +6,7 @@
 
 | input | output |
 | --- | --- |
-| `arr`: array if numbers | `arr`: grouped array |
+| `arr`: array of numbers | `arr`: grouped array by occurence |
 
 <br>
 
@@ -29,7 +29,7 @@ output:
     
     * store `element` in `result` array as many times as frequency
     
-    * update the `frequency` in hash table to `0` 
+    * update the `frequency` of element in hash table to `0` 
 
 <br>
 
