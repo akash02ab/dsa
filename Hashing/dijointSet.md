@@ -43,10 +43,10 @@ False
 
 ```python
 def binarySearch(arr, target):
-    end = len(arr)
+    end = len(arr) - 1
     start = 0
 
-    while start < end:
+    while start <= end:
         mid = (start + end) // 2
 
         if arr[mid] == target:
