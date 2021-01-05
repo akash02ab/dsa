@@ -31,7 +31,7 @@ output:
 
 3. decrement the `count` value if frequency of element is other than `1` (it means that the element is repeated)
 
-4. slide the window and remove the *first* element in the window and add *next* element to the window
+4. slide the window and remove the *first* element from the window and add *next* element to the window
 
 5. also update the `hash` frequency for the elements removed and added
 
@@ -60,7 +60,7 @@ def distinctElement(arr, n, k):
         item = arr[i]
         hash[item] += 1
         '''
-        increment count by 1 if there is only single existance of item in window,
+        increment count by 1 if there is only single occurence of item in window,
         otherwise decrement it
         '''
         count += checkCount(hash[item])
