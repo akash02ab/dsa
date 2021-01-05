@@ -1,6 +1,6 @@
 # Element not in range
 
-### Given array and a range [low, high]. Find the that are in range but not in array.
+### Given array and a range [low, high]. Find the elements that are in range but not in array.
 
 <br>
 
