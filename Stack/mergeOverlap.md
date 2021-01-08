@@ -6,6 +6,7 @@
 
 <br>
 
+> example :
 ```
 input:
 4
