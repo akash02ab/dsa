@@ -33,9 +33,13 @@ output:
     span[i] = indexOf(current) - indexOf(greater) - 1
     ```
 
-4. the number of comparison with all the previous elements can be reduced using stack
+4. the number of comparison with all the previous elements can be reduce using stack
 
 5. push the element in stack only if its greater than current element
+
+6. now compare the current element only with the top of stack element instead of every element before it
+
+7. if top of stack is smaller than current element, keep poping the stack untill top of stack become greater or stack becomes empty
 
 <br>
 
