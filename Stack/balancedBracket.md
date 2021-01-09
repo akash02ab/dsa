@@ -2,7 +2,7 @@
 
 | input | output |
 | --- | --- |
-| `string`: string of brackets | `boolean`: `True` is sequence is balanced<br>`False` otherwise |
+| `string`: string of brackets | `boolean`: `True` if sequence is balanced<br>`False` otherwise |
 
 <br>
 
