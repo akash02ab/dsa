@@ -43,11 +43,11 @@ output:
 
 2. for all elements in the array
 
-3. push the brackets into stack that are not already balanced
+    * push the brackets into stack that are not already balanced
 
-4. count the number of open brackets from the top of stack, call it `n`
+3. count the number of open brackets from the top of stack, call it `n`
 
-5. minimum number of reversal required 
+4. minimum number of reversal required 
     ```
     len(stack) / 2 + n % 2
     ```
