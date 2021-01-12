@@ -48,7 +48,7 @@ def minHeapify(arr, index, size):
         minHeapify(arr, smallest, size)
 
 def buildMinHeap(arr, size):
-    for i in range(size//2, -1, -1):
+    for i in range(size//2 - 1, -1, -1):
         minHeapify(arr, i, size)
 
 def findMaxElement(arr, size):
