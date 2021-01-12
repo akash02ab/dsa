@@ -45,7 +45,7 @@ def minHeapify(arr, index, size):
         smallest = right
     if smallest is not index:
         swap(arr, index, smallest)
-        minHeapify(arr, index, smallest)
+        minHeapify(arr, smallest, size)
 
 def buildMinHeap(arr, size):
     for i in range(size//2, -1, -1):
