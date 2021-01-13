@@ -40,7 +40,7 @@ output:
     * else
         * `insert` `current` in `minHeap`
 
-5. if size of `minHeap` is greater than `minHeap`
+5. if size of `minHeap` is greater than `maxHeap`
     * if `current` elemnt is smaller than effective `median`
         * `insert` `current` in `maxHeap`
     * else
