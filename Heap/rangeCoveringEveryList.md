@@ -94,7 +94,7 @@ def findSmallestRange(arr, k):
             end = max
             _range = max - min + 1
         
-        # replace root element if with next element of list
+        # replace root element with next element of list
         if current < len(arr[row]) - 1:
             next = current + 1
             heap[0] = [arr[row][next], row, next]
