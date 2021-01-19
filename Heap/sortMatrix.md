@@ -66,6 +66,7 @@ def printSortedMatrix(matrix, k):
     # store item, row and next column in heap
     for i in range(k):
         heap.append([matrix[i][0], i, 1])
+    
     # build min heap with first element of all k rows
     buildMinHeap(heap, k)
 
@@ -74,7 +75,7 @@ def printSortedMatrix(matrix, k):
     count = 0
     INT_MAX = 10**18
     
-    # replace other element in matrix to root of head and minHeapify
+    # replace remaining element in matrix to root of heap and minHeapify
     while count < k:
         [item, row, next] = heap[0]
         
