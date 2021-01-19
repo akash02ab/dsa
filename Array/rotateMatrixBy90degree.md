@@ -15,10 +15,10 @@ input:
 13 14 15 16
 
 output:
-[[4, 3, 2, 1], 
- [8, 7, 6, 5], 
- [12, 11, 10, 9], 
- [16, 15, 14, 13]]
+[[4, 8, 12, 16],
+ [3, 7, 11, 15],
+ [2, 6, 10, 14],
+ [1, 5, 9, 13]]
 ```
 
 <br>
@@ -33,6 +33,9 @@ output:
 > implementation :
 
 ```python
+def swap(matrix, i, j):
+    matrix[i][j], matrix[j][i] = matrix[j][i], matrix[i][j]
+    
 def rotate(matrix, n):
     #reverse each row
     for i in range(n):
@@ -40,8 +43,8 @@ def rotate(matrix, n):
     
     #transpose of matrix
     for i in range(n):
-        for j in range(n):
-            matrix[i][j], matrix[j][i] = matrix[j][i], matrix[i][j]
+        for j in range(i, n):
+            swap(matrix, i, j)
 
     return matrix
 
