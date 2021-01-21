@@ -101,7 +101,7 @@ def isIdentical(root1, root2):
     
     return False
 
-# bulild first binary tree
+# build first binary tree
 tree1 = BinaryTree()
 
 arr = []
