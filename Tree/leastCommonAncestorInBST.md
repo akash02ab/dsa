@@ -73,16 +73,16 @@ class BST:
     def getRootNode(self):
         return self.root
 
-def leastCommonAncestor(root, p, q):
-    while(root):
-        if root.data < p and root.data < q:
-            root = root.right
-        elif root.data > q and root.data > q:
-            root = root.left
-        else: 
-            break
-    
-    return root.data
+   def leastCommonAncestor(root, p, q):
+       while(root):
+           if root.data < p and root.data < q:
+               root = root.right
+           elif root.data > q and root.data > q:
+               root = root.left
+           else: 
+               break
+
+       return root.data
 
 tree = BST()
 
@@ -95,7 +95,7 @@ for item in arr:
 
 root = tree.getRootNode()
 
-print(leastCommonAncestor(root, p, q))
+print(tree.leastCommonAncestor(root, p, q))
 ```
 
 > **Time and space complexity :**
