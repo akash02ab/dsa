@@ -4,6 +4,12 @@
 
 <br>
 
+| input | output |
+| --- | --- |
+| `arr[][]`: instruction to build<br>binary tree | `n`: diameter of binary tree |
+
+<br>
+
 > example :
 
 ```
