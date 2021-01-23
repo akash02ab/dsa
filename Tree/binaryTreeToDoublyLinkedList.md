@@ -24,6 +24,11 @@ input:
 output:
 4 2 5 1 3
 ```
+```
+note :- H: head, L: left child, R: right child
+each row conatins: [value, parentNode, childPosition]
+-1 at end represent end of input
+```
 
 <br>
 
