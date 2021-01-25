@@ -48,7 +48,7 @@ each row conatins: [value, parentNode, childPosition]
 
 4. return `hash` table
 
-5. print the sum of nodes according to their *horizontal distance*
+5. print the vertical sum of nodes according to their *horizontal distance*
 
 <br>
 
