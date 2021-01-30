@@ -46,7 +46,7 @@ each row conatins: [value, parentNode, childPosition]
 
 5. increment the `level` by `1` when move to *left subtree*
 
-6. leave the `level` as it is when move to `right subtree`
+6. leave the `level` as it is when move to *right subtree*
 
 7. return `hash` table
 
