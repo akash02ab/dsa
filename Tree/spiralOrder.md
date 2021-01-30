@@ -2,7 +2,7 @@
 
 | input | output |
 | --- | --- |
-| `arr[][]`: instruction to build a binary tree | `arr[]`: binary tree in spiral order |
+| `arr[][]`: instruction to build a binary tree | `arr[]`: spiral order traversal of binary tree |
 
 <br>
 
