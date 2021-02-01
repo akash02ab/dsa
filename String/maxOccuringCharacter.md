@@ -34,14 +34,17 @@ y
 ```python
 from collections import defaultdict
 
+def maxOccuringChar(string):
+    hash = defaultdict(int)
+
+    for char in string:
+        hash[char] += 1
+
+    return max(hash)
+
 string = input()
 
-hash = defaultdict(int)
-
-for char in string:
-    hash[char] += 1
-
-print(max(hash))
+print(maxOccuringChar(string))
 ```
 
 > **Time and space complexity :**
