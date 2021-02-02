@@ -64,4 +64,4 @@ print(isAnagram(str1, str2))
 > **Time and space complexity :**
 <br>T(n) = O(n)
 <br>S(n) = O(1)
-<br>*(hash table only contain ascii character which is contant so, constant space)*
+<br>*(hash table only contain ascii character which is constant so, constant space)*
