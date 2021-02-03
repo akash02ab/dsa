@@ -2,7 +2,7 @@
 
 | input | output |
 | --- | --- |
-| `string`: original string | `string`: window containing pattern |
+| `string`: original string <br> `string`: pattern | `string`: window containing pattern |
 
 <br>
 
@@ -61,8 +61,8 @@ def smallestWindow(string, pattern):
     for char in pattern:
         hashPattern[char] += 1
 
-    for i in range(strLen):
-        char = string[i]
+    for index in range(strLen):
+        char = string[index]
 
         hashString[char] += 1
 
@@ -79,7 +79,7 @@ def smallestWindow(string, pattern):
                 
                 start += 1
                 key = string[start]
-                windowLen = i - start + 1
+                windowLen = index - start + 1
 
                 if minLen > windowLen:
                     minLen = windowLen
