@@ -24,13 +24,13 @@ output:
 
 > approach :
 
-1. if an element is majority element it must present at middle
+1. if an element is majority element, it must present at middle
 
-2. assume that middle element is middle element
+2. assume that middle element is majority element
 
 3. search first occurence of middle element in the left part of array
 
-4. check if middle element is present at right index
+4. check if middle element is also present at right index
 <br>where, `right = left + (size / 2)`
 
 5. if array[middle] is equal to array[right] then majority element is found
