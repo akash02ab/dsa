@@ -24,7 +24,7 @@ output:
 
 <br>
 
-approach :
+> approach :
 
 1. perform a partition by picking last elemnet of `bolts` array as `pivot`
 
