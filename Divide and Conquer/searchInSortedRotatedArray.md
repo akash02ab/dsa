@@ -25,7 +25,7 @@ output:
 
 2. compare `middle` element with `first` element
     
-    * if `firs`t element is less than or equal to `middle` element then array till `middle` is in correct sorted order
+    * if `first` element is less than or equal to `middle` element then array till `middle` is in correct sorted order
         
         * if `key` is in range(`start`, `middle`) then look in *left subarray*
         
