@@ -1,4 +1,4 @@
-# Rearrange the string such that same characters are atleas `d` distance away
+# Rearrange the string such that same characters are atleast `d` distance away
 
 | input | output |
 | --- | --- |
