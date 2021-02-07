@@ -76,5 +76,5 @@ else:
 <br>
 
 > **time and space complexity :**
-<br> T(n) = O(n!)
+<br> T(n) <= O(n<sup>2</sup> * n!)
 <br> S(n) = O(n)
