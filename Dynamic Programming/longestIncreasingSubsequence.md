@@ -23,7 +23,6 @@ output:
 ```python 
 def longestIncreasingSubsequence(arr, size):
     seqLength = [1] * size 
-    maxLength = 0
 
     for i in range(size):
         for j in range(i):
