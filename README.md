@@ -2,8 +2,6 @@
 
 ## Contents
 
-<br>
-
 ###  Array
 
 <details>
