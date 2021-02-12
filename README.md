@@ -1,2 +1,12 @@
 # competitive-coding
-all the problems that I solved so far...
+
+## Contents
+
+<br>
+
+###  Array
+
+<details>
+<summary>View contents</summary>
+
+* [`Binary Search`](./Array/binarySearch.md)
