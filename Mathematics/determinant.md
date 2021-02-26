@@ -49,12 +49,10 @@ output:
 3. iterate through first row and find `cofactor` for each `column`
     * for `column` in range (`0` to `size`) :
         *  find `cofactor` for current `column `element by calling the function recusively and passing the submatrix of `size` - 1 
-        <br>
-        *(the submatix excludes the current column)*
+         * *(the submatix excludes the current column)*
         * multiply the current `column` element with it's `cofactor`
         * add the result to `determinant` with appropriate **sign**
-        <br>
-        *[ sign = (-1)<sup> column</sup> ]*
+         * *[ sign = (-1)<sup> column</sup> ]*
 
 4. return `determinant`
 
