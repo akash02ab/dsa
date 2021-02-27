@@ -41,10 +41,10 @@ output:
 ## approach 1 :
 
 1. base conditions :
-    * if size of matrix is 1 :
+    * if `size` of `matrix` is `1` :
         * return `matrix[0][0]`
 
-2. initialize determinat to `0`
+2. initialize `determinat` to `0`
 
 3. iterate through first row and find `cofactor` for each `column`
     * for `column` in range (`0` to `size`) :
@@ -110,7 +110,7 @@ T(n) = **O**(n!)
 <br>
 
 ## example :
-### using dynamic programming (bottom up method)
+### using dynamic programming (bottom up method) :
 
 ![bottom-up](./pictures/determinantDP.png)
 
