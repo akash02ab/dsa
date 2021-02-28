@@ -192,3 +192,83 @@ print(determinant(matrix, n))
 ## time and space complexity :
 T(n) = **O**(2<sup>n</sup>)
 <br>S(n) = **O**(2<sup>n</sup>)
+
+<br>
+
+---
+
+<br>
+
+## example :
+### gauss elimination method :
+
+![gauss-elimination](./pictures/gaussElimination.png)
+
+<br>
+
+## approach 3 :
+
+* for row in range (`0` to `size`) :
+    
+    * if `matrix[row][row]` is `0` **swap** with non-zero row
+    
+    * for col in range (`row + 1`, `size`) :
+
+        * if `matrix[row][col]` is not `0` :
+            
+            * perform row operation *(to form upper triangular matrix)*
+
+* `determinant` is product of diagonal elements of an upper triangular matrix
+
+<br>
+
+## implementation :
+
+```python
+from math import ceil
+
+def rowOperation(matrix, i, j, size):
+    a = matrix[j][i]
+    b = matrix[i][i]
+    
+    for k in range(i, size):
+        matrix[j][k] = matrix[j][k] - (a / b) * matrix[i][k]
+
+def swap(matrix, i, j):
+    matrix[i], matrix[j] = matrix[j], matrix[i]
+
+def determinant(matrix, size):
+    for i in range(size):
+        k = i
+        
+        while matrix[k][i] == 0: k += 1
+        
+        if k == size: continue
+        elif k != i: swap(matrix, i, k)
+        
+        for j in range(i + 1, size):
+            if matrix[j][i] != 0:
+                rowOperation(matrix, i, j, size)
+    
+    det = 1
+    for i in range(size):
+        det *= matrix[i][i]
+    
+    return ceil(det)
+
+n = int(input())
+
+matrix = []
+for _ in range(n):
+    row = list(map(int, input().split()))
+    matrix.append(row)
+
+print(determinant(matrix, n))
+```
+
+<br>
+
+## time and space complexity :
+T(n) = **O**(n<sup>3</sup>)
+<br>S(n) = **O**(1)
+
