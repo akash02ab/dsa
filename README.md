@@ -1,4 +1,4 @@
-# competitive-coding
+# DSA
 
 ## Contents
 
